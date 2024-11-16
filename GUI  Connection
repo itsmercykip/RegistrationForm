@@ -6,8 +6,8 @@ private void saveDataToDatabase(String name, String mobile, String gender, Strin
     try {
         // Database connection
         String url = "jdbc:mysql://localhost:3306/RegistrationDB";
-        String user = "root"; // Change if needed
-        String password = ""; // Change if needed
+        String user = "root"; 
+        String password = ""; 
         Connection conn = DriverManager.getConnection(url, user, password);
 
         // Insert query
