@@ -1,0 +1,12 @@
+CREATE DATABASE RegistrationDB;
+
+USE RegistrationDB;
+
+CREATE TABLE Registration (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    mobile VARCHAR(20),
+    gender VARCHAR(10),
+    dob DATE,
+    address TEXT
+);
